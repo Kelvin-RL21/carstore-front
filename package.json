@@ -1,0 +1,55 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "cacheDirectories": [
+    ".next/cache"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.38.0",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fortawesome/fontawesome-free": "5.11.2",
+    "@slack/web-api": "^6.5.1",
+    "axios": "^0.26.1",
+    "bootstrap": "4.5.0",
+    "bootstrap-datepicker": "1.9.0",
+    "chartist": "^0.11.4",
+    "chartist-plugin-tooltips": "0.0.17",
+    "ejs": "^3.1.6",
+    "form-data": "^4.0.0",
+    "geodist": "^0.2.1",
+    "headroom.js": "0.10.3",
+    "html-pdf": "^3.0.1",
+    "jquery": "^3.5.1",
+    "jquery-validation": "1.19.1",
+    "jqvmap": "^1.5.1",
+    "leaflet": "^1.6.0",
+    "moment": "^2.29.1",
+    "next": "11.1.0",
+    "next-iron-session": "^4.2.0",
+    "nodemailer": "^6.6.5",
+    "nouislider": "11.0.3",
+    "onscreen": "1.3.4",
+    "owl.carousel": "2.3.4",
+    "popper.js": "1.16.0",
+    "react": "17.0.2",
+    "react-cookie-consent": "^7.0.1",
+    "react-dom": "17.0.2",
+    "react-markdown": "^7.0.1",
+    "smooth-scroll": "^16.1.0",
+    "sticky-sidebar": "3.3.1",
+    "stripe": "^8.181.0",
+    "url-slug": "^3.0.2",
+    "uuid": "^8.3.2",
+    "waypoints": "4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}
